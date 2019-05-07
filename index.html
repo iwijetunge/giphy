@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy time</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="./assets/javascript/app.js"></script>
+
+</head>
+<style>
+  .gifButton,
+  .SubmitButton {
+    background-color: rgb(22, 122, 184);
+    border: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15%;
+    font-size: 16px;
+    border: 2px solid black;
+    /* Green */
+    width: 125px;
+  }
+  .SubmitButton {
+    background-color: green;
+  }
+</style>
+
+
+<body>
+  <label for="gif-search">Add </label>
+  <input type="text" id="gifSearch">
+  <button id=addGifs type="button" class="SubmitButton">Submit</button>
+  <hr>
+  <div id="button-display"></div>
+  <div id="gif-display"></div>
+ </body>
+</html>
